@@ -1,0 +1,4 @@
+PC001,20.00,Available
+PC002,20.00,Occupied
+PC003,25.00,Under Maintenance
+PC004,20.00,Available
