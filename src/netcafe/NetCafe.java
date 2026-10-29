@@ -1,15 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package net.cafe;
 import java.util.*;
 
 public class NetCafe {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
+        logIn();
     }
-        static void LogIn(){
+        static void logIn(){
             System.out.println("==== Net Cafe Login ===");
         
             System.out.print("Enter Username: ");
@@ -19,7 +16,7 @@ public class NetCafe {
             String password = sc.nextLine();
         
             if (username.equals("admin")&& (password.equals("admin123"))){
-                System.out.println("Login Success!");
+                System.out.println("\nLogin Success!");
                 System.out.println("Welcome Back, Admin");
                 Admin.adminMenu();
             
@@ -31,5 +28,5 @@ public class NetCafe {
             } else {
                 System.out.println("Invalid username or password");
             }
-    } 
+      } 
 }
