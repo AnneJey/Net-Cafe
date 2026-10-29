@@ -10,7 +10,7 @@ public class Assistance {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
     }
-    
+//==================================================================================================
     // Customer Request Assistance
     static void requestAssistance(){
         System.out.println("========================");
@@ -81,7 +81,7 @@ public class Assistance {
             System.out.println("Unable to save assistance request.");
         }
     }
-    
+//==================================================================================================
     // Staff Manage Assistance
     static void manageAssistance() {
         System.out.println("\n==============================");
@@ -114,8 +114,8 @@ public class Assistance {
                 System.out.println("Invalid choice. Please try again.");
         }
     }
-    
-    
+//==================================================================================================
+    // View Request - Not done
     static void  viewRequests() {
         File file = new File("assistance.txt");
         
