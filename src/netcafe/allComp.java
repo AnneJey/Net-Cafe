@@ -82,7 +82,7 @@ public class allComp {
         }
     }
 //==================================================================================================
-        static void searchComp() {
+        static void searchComp() { // Not Done
         File file = new File("computer.txt");
         
         try {
